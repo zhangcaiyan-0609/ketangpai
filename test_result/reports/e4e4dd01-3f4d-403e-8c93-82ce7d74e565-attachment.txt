@@ -1,0 +1,2 @@
+<page.Index_page.IndexPage object at 0x10857d650>
+True

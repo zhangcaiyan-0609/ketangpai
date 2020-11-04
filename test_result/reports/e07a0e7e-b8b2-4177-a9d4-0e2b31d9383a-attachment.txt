@@ -1,0 +1,76 @@
+2020-11-04 11:52:02,287 ERROR [base_page.py 149] 元素--('xpath', "//span[text()='+ 创建/加入课程']")--点击元素失败
+2020-11-04 11:52:02,287 ERROR [base_page.py 150] Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-04 11:52:04,366 ERROR [base_page.py 149] 元素--('xpath', "//span[text()='+ 创建/加入课程']")--点击元素失败
+2020-11-04 11:52:04,366 ERROR [base_page.py 150] Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-04 11:52:06,463 ERROR [base_page.py 149] 元素--('xpath', "//span[text()='+ 创建/加入课程']")--点击元素失败
+2020-11-04 11:52:06,463 ERROR [base_page.py 150] Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-04 11:52:08,543 ERROR [base_page.py 149] 元素--('xpath', "//span[text()='+ 创建/加入课程']")--点击元素失败
+2020-11-04 11:52:08,543 ERROR [base_page.py 150] Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1384, 123). Other element would receive the click: <div class="bg" style="display: block;"></div>
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+

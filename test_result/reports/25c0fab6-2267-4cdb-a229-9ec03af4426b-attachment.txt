@@ -1,0 +1,7 @@
+INFO     cathy:base_page.py:158 元素--('xpath', "//span[text()='+ 创建/加入课程']")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[text()='加入课程']")--元素点击成功,
+INFO     cathy:base_page.py:175 输入文本内容--('xpath', "//div[@class='chuangjiankccon']//input[@type='text']")--成功,
+INFO     cathy:base_page.py:79 元素--('xpath', "//li[@class='cjli2']")--等待成功,等待时间是0.014137744903564453秒
+INFO     cathy:base_page.py:122 元素--('xpath', "//div[@class='gTips']")--获取文本成功
+INFO     cathy:test_02add_course.py:50 用例--验证码多于6位--执行成功
+INFO     cathy:base_page.py:158 元素--('xpath', "//li[@class='cjli1']")--元素点击成功,

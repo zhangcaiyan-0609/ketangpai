@@ -1,0 +1,10 @@
+2020-11-04 11:51:55,904 ERROR [test_02add_course.py 45] 用例--验证码多于6位--执行失败
+2020-11-04 11:51:55,905 ERROR [test_02add_course.py 46] assert '该加课码不存在或者已经失效' == '加课验证码必须是6位字符'
+  - 加课验证码必须是6位字符
+  + 该加课码不存在或者已经失效
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/testcase/test_02add_course.py", line 43, in test_add_course_fail
+    assert res == expected
+AssertionError: assert '该加课码不存在或者已经失效' == '加课验证码必须是6位字符'
+  - 加课验证码必须是6位字符
+  + 该加课码不存在或者已经失效

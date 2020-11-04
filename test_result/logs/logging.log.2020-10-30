@@ -1,0 +1,678 @@
+2020-10-29 18:45:28,432 ERROR [base_page.py 203] 清空文本-('xpath', "//input[@name='account']")--失败
+2020-10-29 18:45:28,434 ERROR [base_page.py 204] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='account']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 200, in clear_element
+    self.driver.find_element(*locator).clear()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='account']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-29 18:54:15,027 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 18:54:15,240 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 18:54:15,267 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 18:54:15,348 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 18:54:15,422 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-29 18:54:20,655 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-29 18:54:21,304 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-29 18:54:36,321 ERROR [base_page.py 112] 元素--('xpath', "//div[@class='status fr']")--获取文本失败
+2020-10-29 18:54:36,321 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='status fr']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='status fr']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-29 18:54:37,533 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1603968861.305989_作业_获取作业的状态.png
+2020-10-29 19:03:26,861 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:03:27,016 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:03:27,042 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:03:27,103 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:03:27,179 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-29 19:03:30,347 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-29 19:03:30,988 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-29 19:03:31,634 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-29 19:03:31,882 INFO [base_page.py 122] 元素--('xpath', "//div[@class='status fr']")--获取文本成功
+2020-10-29 19:03:31,883 ERROR [test_homework.py 53] 用例--获取文件上传前的状态--执行失败
+2020-10-29 19:03:31,883 ERROR [test_homework.py 54] assert None == '未完成'
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/testcase/test_homework.py", line 51, in test_homework_start
+    assert start_status == expected
+AssertionError: assert None == '未完成'
+2020-10-29 19:05:27,338 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:05:27,475 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:05:27,500 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:05:27,560 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:05:27,641 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-29 19:05:32,654 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-29 19:05:33,339 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-29 19:05:33,989 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-29 19:05:39,017 INFO [base_page.py 122] 元素--('xpath', "//div[@class='status fr']")--获取文本成功
+2020-10-29 19:05:39,018 ERROR [test_homework.py 56] 用例--获取文件上传前的状态--执行失败
+2020-10-29 19:05:39,018 ERROR [test_homework.py 57] assert None == '未完成'
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/testcase/test_homework.py", line 54, in test_homework_start
+    assert start_status == expected
+AssertionError: assert None == '未完成'
+2020-10-29 19:57:19,089 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:57:19,227 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 19:57:19,253 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:57:19,313 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 19:57:19,388 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-29 19:57:22,405 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-29 19:57:23,040 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-29 19:57:23,662 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-29 19:57:28,687 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-29 19:57:28,688 ERROR [test_homework.py 56] 用例--获取文件上传前的状态--执行失败
+2020-10-29 19:57:28,688 ERROR [test_homework.py 57] assert None == '未完成'
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/testcase/test_homework.py", line 54, in test_homework_start
+    assert start_status == expected
+AssertionError: assert None == '未完成'
+2020-10-29 20:00:50,135 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 20:00:50,273 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-29 20:00:50,300 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 20:00:50,371 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-29 20:00:50,453 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-29 20:00:55,560 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-29 20:00:56,180 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-29 20:00:56,858 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-29 20:01:01,885 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-29 20:01:01,885 INFO [test_homework.py 60] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:24:32,618 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:24:32,783 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:24:32,817 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:24:32,874 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:24:32,967 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:24:36,203 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:24:36,909 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:24:37,511 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:24:42,538 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:24:42,544 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:24:57,599 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[1]")--点击元素失败
+2020-10-30 16:24:57,600 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:29:21,015 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:29:21,157 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:29:21,183 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:29:21,253 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:29:21,323 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:29:25,205 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:29:25,883 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:29:26,515 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:29:31,541 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:29:31,542 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:33:03,327 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:33:03,492 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:33:03,517 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:33:03,603 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:33:03,688 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:33:06,549 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:33:07,236 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:33:07,874 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:33:12,902 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:33:12,902 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:33:52,692 ERROR [base_page.py 149] 元素--('xpath', "//a[@class='new-tj1']")--点击元素失败
+2020-10-30 16:33:52,692 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='new-tj1']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='new-tj1']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:36:17,247 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:36:17,377 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:36:17,401 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:36:17,463 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:36:17,540 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:36:21,982 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:36:22,827 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:36:23,574 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:36:28,598 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:36:28,598 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:37:13,238 ERROR [base_page.py 149] 元素--('xpath', "//a[@class='tj-btn']")--点击元素失败
+2020-10-30 16:37:13,239 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:38:59,617 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:38:59,751 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:38:59,776 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:38:59,834 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:38:59,922 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:39:05,506 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:39:06,183 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:39:06,823 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:39:55,962 ERROR [base_page.py 149] 元素--('xpath', "//a[@class='tj-btn']")--点击元素失败
+2020-10-30 16:39:55,962 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:40:58,926 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:40:59,060 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:40:59,085 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:40:59,145 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:40:59,229 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:41:17,058 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:41:17,698 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:41:18,341 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:41:23,368 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:41:23,368 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:45:50,039 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:45:50,188 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:45:50,216 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:45:50,302 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:45:50,393 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:45:53,285 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:45:53,924 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:45:54,646 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:45:59,675 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 16:45:59,675 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 16:46:49,378 ERROR [base_page.py 149] 元素--('xpath', "//a[@class='tj-btn']")--点击元素失败
+2020-10-30 16:46:49,378 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='tj-btn']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:57:25,361 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:57:25,536 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:57:25,563 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:57:25,622 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:57:25,723 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:57:28,705 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:57:29,332 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:57:29,549 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:57:49,601 ERROR [base_page.py 112] 元素--('xpath', "//span[@class='wwc']")--获取文本失败
+2020-10-30 16:57:49,602 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:57:50,704 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604048254.551763_作业_获取作业的状态.png
+2020-10-30 16:58:22,124 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:58:22,280 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 16:58:22,308 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:58:22,376 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 16:58:22,468 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 16:58:25,513 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 16:58:26,171 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 16:58:26,388 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 16:58:46,432 ERROR [base_page.py 112] 元素--('xpath', "//span[@class='wwc']")--获取文本失败
+2020-10-30 16:58:46,432 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 16:58:47,717 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604048311.392956_作业_获取作业的状态.png
+2020-10-30 17:01:39,509 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:01:39,667 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:01:39,693 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:01:39,765 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:01:39,840 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:01:44,453 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:01:45,205 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:01:45,827 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:01:50,856 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 17:01:50,857 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 17:02:24,983 INFO [base_page.py 158] 元素--('xpath', "//a[text()='提交']")--元素点击成功,
+2020-10-30 17:02:40,011 ERROR [base_page.py 112] 元素--('xpath', "//div[@class='weui_dialog_bd']")--获取文本失败
+2020-10-30 17:02:40,011 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='weui_dialog_bd']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='weui_dialog_bd']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:02:40,585 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604048544.9836512_作业_弹窗文本.png
+2020-10-30 17:03:03,879 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:03:04,036 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:03:04,061 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:03:04,122 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:03:04,212 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:03:06,985 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:03:07,660 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:03:08,323 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:03:13,353 INFO [base_page.py 122] 元素--('xpath', "//span[@class='wwc']")--获取文本成功
+2020-10-30 17:03:13,353 INFO [test_homework.py 59] 用例--获取文件上传前的状态--执行成功
+2020-10-30 17:03:47,856 INFO [base_page.py 158] 元素--('xpath', "//a[text()='提交']")--元素点击成功,
+2020-10-30 17:03:48,323 INFO [base_page.py 122] 元素--('xpath', "//div[@class='weui_dialog_bd']")--获取文本成功
+2020-10-30 17:04:08,328 ERROR [base_page.py 112] 元素--('xpath', "//span[@class='wwc']")--获取文本失败
+2020-10-30 17:04:08,329 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:04:08,919 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604048633.3243132_作业_获取作业的状态.png
+2020-10-30 17:23:09,585 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:23:09,749 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:23:09,775 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:23:09,857 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:23:09,932 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:23:13,346 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:23:13,978 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:23:14,195 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:23:29,204 ERROR [base_page.py 149] 元素--('xpath', "//a[@class='new-tj1']")--点击元素失败
+2020-10-30 17:23:29,204 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='new-tj1']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='new-tj1']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:23:29,807 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:23:30,009 INFO [base_page.py 122] 元素--('xpath', "//div[@id='mess2']")--获取文本成功
+2020-10-30 17:23:30,010 ERROR [test_homework.py 129] 用例--获取作业的留言--执行失败
+2020-10-30 17:23:30,010 ERROR [test_homework.py 130] assert '作业留言：\n暂无留言' == '暂无留言'
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/testcase/test_homework.py", line 127, in test_homework_news
+    assert news == expected
+AssertionError: assert '作业留言：\n暂无留言' == '暂无留言'
+2020-10-30 17:24:11,188 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:24:11,360 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:24:11,387 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:24:11,446 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:24:11,533 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:24:14,768 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:24:15,476 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:24:16,143 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:24:16,441 INFO [base_page.py 158] 元素--('xpath', "//a[@class='new-tj1']")--元素点击成功,
+2020-10-30 17:24:31,491 ERROR [base_page.py 149] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--点击元素失败
+2020-10-30 17:24:31,491 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:24:46,669 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[1]")--点击元素失败
+2020-10-30 17:24:46,669 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:38:09,265 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:38:09,430 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:38:09,455 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:38:09,524 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:38:09,595 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:38:12,148 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:38:12,788 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:38:13,472 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[1]")--元素点击成功,
+2020-10-30 17:38:13,696 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[1]")--元素点击成功,
+2020-10-30 17:38:28,774 ERROR [base_page.py 149] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--点击元素失败
+2020-10-30 17:38:28,775 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:38:43,939 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[1]")--点击元素失败
+2020-10-30 17:38:43,939 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:41:56,905 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:41:57,047 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:41:57,076 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:41:57,137 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:41:57,219 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:42:00,647 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:42:01,286 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:42:01,980 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[2]")--元素点击成功,
+2020-10-30 17:42:02,313 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[1]")--元素点击成功,
+2020-10-30 17:42:04,391 INFO [base_page.py 158] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--元素点击成功,
+2020-10-30 17:42:19,450 ERROR [base_page.py 149] 元素--('xpath', "//div[@class='opt clearfix']//a[@class='cancel']")--点击元素失败
+2020-10-30 17:42:19,451 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='opt clearfix']//a[@class='cancel']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='opt clearfix']//a[@class='cancel']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:42:34,624 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[2]")--点击元素失败
+2020-10-30 17:42:34,624 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:44:32,721 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:44:32,856 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:44:32,880 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:44:32,951 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:44:33,024 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:44:36,475 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:44:37,231 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:44:37,909 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[2]")--元素点击成功,
+2020-10-30 17:44:38,254 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[1]")--元素点击成功,
+2020-10-30 17:44:55,295 ERROR [base_page.py 149] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--点击元素失败
+2020-10-30 17:44:55,295 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:45:10,457 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[2]")--点击元素失败
+2020-10-30 17:45:10,457 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:46:08,898 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:46:09,032 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:46:09,058 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:46:09,130 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:46:09,233 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:46:13,279 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:46:14,846 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:46:15,344 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[2]")--元素点击成功,
+2020-10-30 17:46:15,642 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[1]")--元素点击成功,
+2020-10-30 17:46:20,730 INFO [base_page.py 158] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--元素点击成功,
+2020-10-30 17:47:03,511 ERROR [base_page.py 149] 元素--('xpath', "(//a[text()='更新提交'])[1]")--点击元素失败
+2020-10-30 17:47:03,511 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:47:18,691 ERROR [base_page.py 149] 元素--('xpath', "(//h3[@class='work-title '])[2]")--点击元素失败
+2020-10-30 17:47:18,691 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//h3[@class='work-title '])[2]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:53:03,537 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:53:03,679 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:53:03,703 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:53:03,766 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:53:05,237 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:53:08,550 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:53:09,182 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:53:09,412 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[2]")--元素点击成功,
+2020-10-30 17:53:24,465 ERROR [base_page.py 149] 元素--('xpath', "(//a[text()='更新提交'])[1]")--点击元素失败
+2020-10-30 17:53:24,466 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='更新提交'])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='更新提交'])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:53:39,608 ERROR [base_page.py 112] 元素--('xpath', "//span[@class='s2']")--获取文本失败
+2020-10-30 17:53:39,608 ERROR [base_page.py 113] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='s2']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='s2']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-10-30 17:53:40,964 INFO [base_page.py 118] 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604051604.599355_作业_获取作业的留言.png
+2020-10-30 17:53:58,827 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:53:58,961 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-10-30 17:53:58,987 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:53:59,048 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-10-30 17:53:59,121 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-10-30 17:54:02,262 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-10-30 17:54:02,992 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-10-30 17:54:03,688 INFO [base_page.py 158] 元素--('xpath', "(//h3[@class='work-title '])[2]")--元素点击成功,
+2020-10-30 17:54:03,942 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[1]")--元素点击成功,
+2020-10-30 17:54:09,017 INFO [base_page.py 158] 元素--('xpath', "//div[@class='btns']//a[@class='sure active']")--元素点击成功,
+2020-10-30 17:54:36,824 INFO [base_page.py 158] 元素--('xpath', "(//a[text()='更新提交'])[2]")--元素点击成功,
+2020-10-30 17:54:38,849 INFO [base_page.py 122] 元素--('xpath', "//div[@class='weui_dialog_bd']")--获取文本成功
+2020-10-30 17:54:40,900 INFO [base_page.py 158] 元素--('xpath', "//a[text()='知道了']")--元素点击成功,
+2020-10-30 17:54:40,900 INFO [test_homework.py 111] 用例--更新文件成功--执行成功
+2020-10-30 17:54:40,929 INFO [base_page.py 122] 元素--('xpath', "//span[@class='s2']")--获取文本成功
+2020-10-30 17:54:40,929 INFO [test_homework.py 131] 用例--获取作业的留言--执行成功

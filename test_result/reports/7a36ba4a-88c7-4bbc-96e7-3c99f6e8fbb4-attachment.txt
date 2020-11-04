@@ -1,0 +1,21 @@
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[text()='提交']")--元素点击成功,
+INFO     cathy:base_page.py:122 元素--('xpath', "//div[@class='weui_dialog_bd']")--获取文本成功
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[text()='知道了']")--元素点击成功,
+ERROR    cathy:base_page.py:112 元素--('xpath', "//span[@class='wwc']")--获取文本失败
+ERROR    cathy:base_page.py:113 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 109, in get_element_text
+    text = self.driver.find_element(*locator).text
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='wwc']"}
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+INFO     cathy:base_page.py:118 错误页面截图成功，图片保存的路径:/Users/zhangcaiyan/Desktop/ketangpai/test_result/error_images/1604462012.020202_作业_获取作业的状态.png

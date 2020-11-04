@@ -1,0 +1,6 @@
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[@class='lately active']")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "(//div[@class='m-list']//ul//li)[1]")--元素点击成功,
+INFO     cathy:base_page.py:175 输入文本内容--('xpath', "//textarea[@class='ps-container']")--成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[text()='发送']")--元素点击成功,
+INFO     cathy:base_page.py:122 元素--('xpath', "//div[@class='gTips']")--获取文本成功
+INFO     cathy:test_05personal.py:105 用例--私信内容为空--执行成功

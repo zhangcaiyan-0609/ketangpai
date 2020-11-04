@@ -1,0 +1,5 @@
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[@class='lately active']")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "(//div[@class='m-list']//ul//li)[1]")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[@id='upload']")--元素点击成功,
+INFO     cathy:base_page.py:122 元素--('xpath', "(//a[@class='fileext preview'])[last()]")--获取文本成功
+INFO     cathy:test_05personal.py:168 用例--发送附件--执行成功

@@ -1,0 +1,241 @@
+2020-11-01 16:28:23,713 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:28:23,836 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:28:23,861 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:28:23,919 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:28:24,004 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:28:26,952 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:28:27,621 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:28:27,671 INFO [base_page.py 158] 元素--('xpath', "(//i[@class='iconfont iconheader-gengduo'])[1]")--元素点击成功,
+2020-11-01 16:28:44,694 ERROR [base_page.py 149] 元素--('xpath', "//b[text()='私信']")--点击元素失败
+2020-11-01 16:28:44,694 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:31:57,328 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:31:57,448 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:31:57,473 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:31:57,532 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:31:57,584 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:32:00,342 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:32:00,997 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:32:01,034 INFO [base_page.py 158] 元素--('xpath', "(//i[@class='iconfont iconheader-gengduo'])[1]")--元素点击成功,
+2020-11-01 16:32:18,094 ERROR [base_page.py 149] 元素--('xpath', "//i[@class='iconfont iconsixin2']")--点击元素失败
+2020-11-01 16:32:18,095 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:36:59,397 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:36:59,550 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:36:59,576 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:36:59,636 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:36:59,716 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:37:02,432 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:37:03,109 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:37:03,149 INFO [base_page.py 158] 元素--('xpath', "(//i[@class='iconfont iconheader-gengduo'])[1]")--元素点击成功,
+2020-11-01 16:37:21,179 ERROR [base_page.py 149] 元素--('xpath', "//b[text()='私信']")--点击元素失败
+2020-11-01 16:37:21,179 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:39:38,697 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:39:38,832 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:39:38,859 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:39:38,914 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:39:38,997 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:39:41,605 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:39:42,282 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:39:42,335 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:39:45,463 INFO [base_page.py 158] 元素--('xpath', "//b[text()='私信']")--元素点击成功,
+2020-11-01 16:40:00,512 ERROR [base_page.py 149] 元素--('xpath', "(//p[@class='name text-overflow'])[1]")--点击元素失败
+2020-11-01 16:40:00,512 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//p[@class='name text-overflow'])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//p[@class='name text-overflow'])[1]"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:42:58,101 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:42:58,238 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:42:58,262 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:42:58,319 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:42:58,396 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:43:01,100 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:43:01,751 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:43:01,794 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:43:19,820 ERROR [base_page.py 149] 元素--('xpath', "//b[text()='私信']")--点击元素失败
+2020-11-01 16:43:19,821 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:44:10,052 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:44:10,187 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:44:10,218 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:44:10,279 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:44:10,365 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:44:13,196 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:44:13,851 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:44:13,893 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:44:31,944 ERROR [base_page.py 149] 元素--('xpath', "//b[text()='私信']")--点击元素失败
+2020-11-01 16:44:31,945 ERROR [base_page.py 150] Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:49:57,569 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:49:57,700 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:49:57,727 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:49:57,785 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:49:57,870 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:50:00,715 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:50:01,401 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:50:04,458 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:50:09,603 INFO [base_page.py 158] 元素--('xpath', "//b[text()='私信']")--元素点击成功,
+2020-11-01 16:50:24,647 ERROR [base_page.py 149] 元素--('xpath', "//li[@class='m-item active']")--点击元素失败
+2020-11-01 16:50:24,648 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='m-item active']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='m-item active']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:52:27,284 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:52:27,448 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:52:27,477 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:52:27,540 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:52:27,615 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:52:30,238 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:52:30,889 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:52:33,954 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:52:39,115 INFO [base_page.py 158] 元素--('xpath', "//b[text()='私信']")--元素点击成功,
+2020-11-01 16:52:39,130 ERROR [base_page.py 149] 元素--('xpath', "[//p[text()='柠檬班--丹丹']")--点击元素失败
+2020-11-01 16:52:39,131 ERROR [base_page.py 150] Message: invalid selector: Unable to locate an element with the xpath expression [//p[text()='柠檬班--丹丹'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[//p[text()='柠檬班--丹丹']' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression [//p[text()='柠檬班--丹丹'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[//p[text()='柠檬班--丹丹']' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+
+2020-11-01 16:55:07,019 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:55:07,158 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='account']")--成功,
+2020-11-01 16:55:07,184 INFO [base_page.py 212] 清空文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:55:07,274 INFO [base_page.py 175] 输入文本内容--('xpath', "//input[@name='pass']")--成功,
+2020-11-01 16:55:07,329 INFO [base_page.py 158] 元素--('xpath', "//div[@class='padding-cont pt-login']//a[text()='登录']")--元素点击成功,
+2020-11-01 16:55:11,101 INFO [base_page.py 158] 元素--('xpath', "//a[text()='python-web项目实战- 考核项目']")--元素点击成功,
+2020-11-01 16:55:12,406 INFO [base_page.py 158] 元素--('xpath', "//a[text()='作业']")--元素点击成功,
+2020-11-01 16:55:15,457 INFO [base_page.py 158] 元素--('xpath', "(//a[@class='side-button'])[1]")--元素点击成功,
+2020-11-01 16:55:20,590 INFO [base_page.py 158] 元素--('xpath', "//b[text()='私信']")--元素点击成功,
+2020-11-01 16:55:35,620 ERROR [base_page.py 149] 元素--('xpath', "//p[text()='东何']")--点击元素失败
+2020-11-01 16:55:35,620 ERROR [base_page.py 150] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='东何']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/ketangpai/common/base_page.py", line 146, in click_element
+    self.driver.find_element(*locator).click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='东何']"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Mac OS X 10.14.6 x86_64)
+

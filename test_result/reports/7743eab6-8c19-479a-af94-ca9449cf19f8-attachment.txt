@@ -1,0 +1,6 @@
+INFO     cathy:base_page.py:158 元素--('xpath', "//a[@class='lately active']")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "(//div[@class='m-list']//ul//li)[1]")--元素点击成功,
+INFO     cathy:base_page.py:158 元素--('xpath', "//div[@class='refuse']")--元素点击成功,
+INFO     cathy:base_page.py:122 元素--('xpath', "//div[@class='gTips']")--获取文本成功
+INFO     cathy:test_05personal.py:34 用例--取消屏蔽--执行成功
+INFO     cathy:base_page.py:158 元素--('xpath', "//i[@class='icon icon-notify-close']")--元素点击成功,

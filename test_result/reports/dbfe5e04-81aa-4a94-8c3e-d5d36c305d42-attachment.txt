@@ -1,0 +1,4 @@
+INFO     cathy:base_page.py:215 清空文本内容--('xpath', "//input[@placeholder='搜索学号、姓名']")--成功,
+INFO     cathy:base_page.py:175 输入文本内容--('xpath', "//input[@placeholder='搜索学号、姓名']")--成功,
+INFO     cathy:base_page.py:122 元素--('xpath', "//div[@class='search-list']")--获取文本成功
+INFO     cathy:test_05personal.py:52 用例--以学号搜索--执行成功

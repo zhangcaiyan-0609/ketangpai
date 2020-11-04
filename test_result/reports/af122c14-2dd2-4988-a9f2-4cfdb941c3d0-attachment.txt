@@ -1,0 +1,2 @@
+INFO     cathy:base_page.py:122 元素--('xpath', "//span[@class='s2']")--获取文本成功
+INFO     cathy:test_04homework.py:114 用例--获取作业的留言--执行成功
